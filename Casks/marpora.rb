@@ -1,6 +1,6 @@
 cask "marpora" do
-  version "1.0.1"
-  sha256 "fa6ec71632f31951c945bc9d938d991417067137a17a189c6eb21cbda4024b1b"
+  version "1.0.2"
+  sha256 "169a89a2e290bf1d8ec7c361639cac5d91475767a6b6b30d2c091d61f3dbf623"
 
   url "https://github.com/farvisun/marpora/releases/download/v#{version}/Marpora_#{version}_universal.dmg"
   name "Marpora"
