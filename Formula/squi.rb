@@ -5,21 +5,21 @@
 class Squi < Formula
   desc "Lightweight terminal SQL client for PostgreSQL, MySQL, MariaDB, ClickHouse, SQL Server and SQLite"
   homepage "https://github.com/farvisun/squi"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/farvisun/squi/releases/download/v0.6.0/squi_0.6.0_darwin_amd64.tar.gz"
-      sha256 "2b570704ae85e22926728b39f25d4dbe4394314ab6890a01e777577487423780"
+      url "https://github.com/farvisun/squi/releases/download/v0.7.0/squi_0.7.0_darwin_amd64.tar.gz"
+      sha256 "06e8f4f1d1b2f5635b386a2ed21f67f284982672f8be44aadb1521ec10011b08"
 
       define_method(:install) do
         bin.install "squi"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/farvisun/squi/releases/download/v0.6.0/squi_0.6.0_darwin_arm64.tar.gz"
-      sha256 "7fb6b6b9c32e188cd1cf8444a92d93ee13925d50f8709c09d141049cedcf1d3c"
+      url "https://github.com/farvisun/squi/releases/download/v0.7.0/squi_0.7.0_darwin_arm64.tar.gz"
+      sha256 "a99b14e2804595b93f119232c98aefb5de914c32893cb5dd1a7170b32e7db81f"
 
       define_method(:install) do
         bin.install "squi"
@@ -29,15 +29,15 @@ class Squi < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/farvisun/squi/releases/download/v0.6.0/squi_0.6.0_linux_amd64.tar.gz"
-      sha256 "ec2258de044216e12e8895241429e59b06fdf2f51ba93554b297afa8591a2e10"
+      url "https://github.com/farvisun/squi/releases/download/v0.7.0/squi_0.7.0_linux_amd64.tar.gz"
+      sha256 "157fd7597eebc00ed2f024af5d76eeb34d31a5059b8f454013edca6f8292a85f"
       define_method(:install) do
         bin.install "squi"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/farvisun/squi/releases/download/v0.6.0/squi_0.6.0_linux_arm64.tar.gz"
-      sha256 "5abfe1d4b05928aaeee8a3c07b8bbf8b1c36302e586d2809b96a21cbdaf6eff5"
+      url "https://github.com/farvisun/squi/releases/download/v0.7.0/squi_0.7.0_linux_arm64.tar.gz"
+      sha256 "aa32638db1c814a20a4292e31585c0b53bad689bd557bef284a1b5229b957c8c"
       define_method(:install) do
         bin.install "squi"
       end
