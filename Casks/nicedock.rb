@@ -1,6 +1,6 @@
 cask "nicedock" do
-  version "1.1.1"
-  sha256 "e1d29b9b9c8593df52342276847744bbbd7aeaedd8494a7a8fd3d71634ce2adb"
+  version "1.2.0"
+  sha256 "0a760b1181ba6c57c8183c7323348cea5ad33d169175d3e9709152282bdab4c0"
 
   url "https://github.com/farvisun/nicedock/releases/download/v#{version}/NiceDock.zip"
   name "NiceDock"
