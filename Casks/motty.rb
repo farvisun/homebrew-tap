@@ -1,6 +1,6 @@
 cask "motty" do
-  version "0.3.1"
-  sha256 "48f1c40a42c0bf3f34a38ab9719e348e7f96a401ad1f8a31ec8536773e0404ef"
+  version "0.3.2"
+  sha256 "7410117141a8e861f2677f21a528aaa89e3e0b1b9e3ede21567ec473f8c26ed3"
 
   url "https://github.com/farvisun/motty/releases/download/v#{version}/Motty-#{version}-universal.dmg"
   name "Motty"
