@@ -1,6 +1,6 @@
 cask "agentilo" do
-  version "0.8.0"
-  sha256 "fe5ccbc035a0ab9bed46bf128900aa0bc415144d397df0b5f5f4c731ecb5acb7"
+  version "0.8.1"
+  sha256 "bb7e1084c65443c4a6c9909fa335a9dc2f053f82c884c3571c899feebdf55a64"
 
   url "https://github.com/farvisun/agentilo/releases/download/v#{version}/Agentilo.zip"
   name "Agentilo"
