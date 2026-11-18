@@ -6,7 +6,7 @@ class Squi < Formula
   desc "Lightweight terminal SQL client for PostgreSQL, MySQL, MariaDB, ClickHouse, SQL Server and SQLite"
   homepage "https://github.com/farvisun/squi"
   version "0.7.0"
-  license "MIT"
+  license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
